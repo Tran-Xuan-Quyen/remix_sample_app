@@ -17,6 +17,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <script
+          src="https://upload-widget.cloudinary.com/latest/global/all.js"
+          type="text/javascript"
+        ></script>
         {children}
         <ScrollRestoration />
         <Scripts />
