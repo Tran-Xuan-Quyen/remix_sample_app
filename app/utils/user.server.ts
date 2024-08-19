@@ -5,7 +5,7 @@ import { Profile } from '@prisma/client';
 
 export const createUser = async (user: RegisterForm) => {
     const passwordHash = await bcrypt.hash(user.password, 10);
-    console.log(user);
+    //console.log(user);
     const newUser = await prisma.user.create({
         data: {
             email: user.email,

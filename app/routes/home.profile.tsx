@@ -74,7 +74,7 @@ export default function ProfileSettings() {
 			profilePicture: imageUrl,
 		}));
 	};
-
+	//console.log(formData);
 	return (
 		<Modal isOpen={true} className="w-1/3">
 			<div className="p-3">
